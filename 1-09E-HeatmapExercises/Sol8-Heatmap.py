@@ -12,7 +12,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 import pandas as pd 
 # Create a DataFrame from  "flights" data
-df = pd.read_csv('../data/flights.csv')
+df = pd.read_csv('../Data/flights.csv')
 
 # Define a data variable
 data = [go.Heatmap(

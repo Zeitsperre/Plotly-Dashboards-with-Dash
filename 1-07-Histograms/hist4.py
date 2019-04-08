@@ -5,7 +5,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv('../data/arrhythmia.csv')
+df = pd.read_csv('../Data/arrhythmia.csv')
 
 data = [go.Histogram(
     x=df[df['Sex']==0]['Height'],

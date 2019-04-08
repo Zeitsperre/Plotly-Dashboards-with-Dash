@@ -12,7 +12,7 @@ import plotly.figure_factory as ff
 import pandas as pd
 
 # create a DataFrame from the .csv file:
-df = pd.read_csv('../data/iris.csv')
+df = pd.read_csv('../Data/iris.csv')
 
 # Define the traces
 trace0 = df[df['class']=='Iris-setosa']['petal_length']

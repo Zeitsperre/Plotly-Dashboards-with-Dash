@@ -6,7 +6,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv('../data/thebutton_presses.csv')
+df = pd.read_csv('../Data/thebutton_presses.csv')
 
 data = [go.Histogram(
     x=df['press time'],

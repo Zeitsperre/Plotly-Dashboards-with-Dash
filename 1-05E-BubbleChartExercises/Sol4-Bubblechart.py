@@ -10,7 +10,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 # create a DataFrame from the .csv file:
-df = pd.read_csv('../data/mpg.csv')
+df = pd.read_csv('../Data/mpg.csv')
 
 # create data by choosing fields for x, y and marker size attributes
 data = [go.Scatter(

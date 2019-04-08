@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 # create a DataFrame from the .csv file:
-df = pd.read_csv('../data/abalone.csv')
+df = pd.read_csv('../Data/abalone.csv')
 
 # take two random samples of different sizes:
 a = np.random.choice(df['rings'],30,replace=False)
